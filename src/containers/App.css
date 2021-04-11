@@ -1,0 +1,43 @@
+.App {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	min-height: 100vh;
+	color: aliceblue;
+	background-color: gray;
+}
+
+button {
+	cursor: pointer;
+	color: #ffffff;
+	padding: 5px 25px;
+	margin: 10px;
+	font-size: 20px;
+	text-transform: uppercase;
+	width: 300px;
+	border-radius: 15px;
+	background-color: #007bff;
+}
+
+body {
+	background-color: #c273ae;
+}
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 15px;
+}
+.box {
+	width: auto;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.icon {
+	font-size: 35px;
+	cursor: pointer;
+	color: #000000;
+}
